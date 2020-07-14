@@ -1,0 +1,351 @@
+"*":
+  Hydrogen:
+    debug: true
+    globalMode: true
+    languageMappings: "{ \"python3\": \"magicpython\", \"bash\": \"shell script\", \"r\": \"ir\", \"javascript\": \"jslab\", \"typescript\": \"tslab\"}"
+    startupCode: "{\"c++\": \"#include <iostream>\"}"
+  Zen:
+    fullscreen: false
+    showWordCount: "Left"
+  "activate-power-mode":
+    autoToggle: false
+    plugins:
+      playAudio: true
+      screenShake: true
+  "atom-beautify":
+    c:
+      configPath: "~/.atom/packages/atom-beautify/src/beautifiers/uncrustify/default.cfg"
+      disabled: true
+    cpp:
+      configPath: "~/.atom/packages/atom-beautify/src/beautifiers/uncrustify/default.cfg"
+      disabled: true
+    executables:
+      "clang-format":
+        path: "/usr/local/bin/clang-format"
+      uncrustify:
+        path: "/usr/local/bin/uncrustify"
+    general:
+      _analyticsUserId: "a8b5d930-07f3-4123-9159-75eb7baa5073"
+    typescript: {}
+  "atom-clang":
+    defaultCXXFlags: [
+      "-std=c++14"
+      "-Wall"
+      "-fexceptions"
+    ]
+  "atom-ctags":
+    disableComplete: true
+  "atom-material-ui":
+    colors:
+      abaseColor: "#607d8b"
+      paintCursor: true
+      predefinedColor: "Blue Grey"
+    fonts: {}
+    tabs:
+      compactTabs: true
+      stretchedTabs: true
+      tintedTabBar: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+      useAnimations: false
+  "atom-section-divider":
+    endColumn: 10
+    text: "-"
+  "atomic-emacs":
+    alwaysUseKillRing: true
+    yankFromClipboard: true
+  "atomic-rtags":
+    rdmAutoSpawn: true
+  "autocomplete-clang":
+    includeNonDoxygenCommentsAsDocumentation: true
+    includeSystemHeadersDocumentation: true
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  "autocomplete-python":
+    showTooltips: true
+    useKite: false
+    useSnippets: "required"
+  "autocomplete-python-jedi":
+    showTooltips: true
+    useSnippets: "all"
+  "base16-syntax":
+    scheme: "Monokai"
+    style: "Dark"
+  "bracket-matcher":
+    alwaysSkipClosingPairs: true
+  "clang-format":
+    formatCOnSave: true
+    formatCPlusPlusOnSave: true
+    formatJavaOnSave: true
+    formatJavascriptOnSave: true
+    formatObjectiveCOnSave: true
+    formatTypescriptOnSave: true
+  core:
+    autoHideMenuBar: true
+    automaticallyUpdate: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "language-matlab"
+      "php-cs-fixer"
+      "atom-runner"
+      "proto-repl"
+      "intentions"
+      "ink"
+      "background-tips"
+      "busy-signal"
+      "goto-definition"
+      "remote-ftp"
+      "spell-check"
+      "project-manager"
+      "copy-as-rtf"
+      "linter-jshint"
+      "pig"
+      "git-plus"
+      "wordcount"
+      "markdown-preview-plus"
+      "organized"
+      "rainbow-csv"
+      "language-sas"
+      "parinfer"
+      "dbg-gdb"
+      "dbg"
+      "symbols-view"
+      "Zen"
+      "pigments"
+      "python-tools"
+      "project-plus"
+      "incremental-search"
+      "minimap"
+      "minimap-highlight-selected"
+      "linter-clang"
+      "hyperclick"
+      "atom-clang"
+      "TabNine"
+      "build"
+      "about"
+      "switch-header-source"
+      "autocomplete-clang"
+      "markdown-folding"
+      "markdown-preview"
+      "language-gfm"
+      "atom-keyboard-macros"
+      "autocomplete-python-jedi"
+      "language-javascript"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "atom-section-divider"
+      "preview-inline"
+      "jumpy"
+      "hydrogen-launcher"
+      "Zen"
+      "bracket-matcher"
+      "project-plus"
+      "atomic-emacs"
+      "markdown-writer"
+      "clang-format"
+      "script"
+      "process-palette"
+      "github"
+      "autocomplete-clang"
+      "you-complete-me"
+      "atomic-rtags"
+      "activate-power-mode"
+    ]
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "gruvbox-plus-syntax"
+    ]
+    titleBar: "hidden"
+  "disable-keybindings":
+    bundledPackages: [
+      "symbols-view"
+    ]
+    communityPackages: [
+      "atom-keyboard-macros"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+    ]
+  docblockr:
+    lower_case_primitives: true
+  "document-outline":
+    showByDefault: false
+  "duotone-dark-syntax":
+    color:
+      duo: "#ff9a27"
+      uno: "#cc4069"
+  editor:
+    fontFamily: "SF Mono, Inconsolata, Menlo, Helvetica Neue, Skia, Poiret One"
+    fontSize: 13
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "30e046bf-97f5-4cc3-9ece-26288ddaefe8"
+  "find-and-replace":
+    scrollToResultOnLiveSearch: true
+  "fuzzy-finder":
+    searchAllPanes: true
+  "git-plus":
+    diffs: {}
+  "gpp-compiler":
+    compileToTmpDirectory: false
+  "gruvbox-plus-syntax":
+    contrast: "Soft"
+  "hydrogen-launcher": {}
+  "ide-python":
+    pylsPlugins:
+      flake8:
+        hangClosing: true
+      jedi_definition:
+        follow_imports: true
+      pydocstyle:
+        enabled: true
+    python: "python3"
+  "incremental-search":
+    cancelSearchOnBlur: true
+  jumpy:
+    fontSize: 1
+    useHomingBeaconEffectOnJumps: false
+  latex:
+    buildOnSave: true
+    enableShellEscape: true
+    engine: "xelatex"
+    loggingLevel: "error"
+    opener: "pdf-view"
+    pdfViewSplitDirection: "down"
+  "linter-clang":
+    clangDefaultCppFlags: "-Wall -std=c++14"
+  "linter-gcc":
+    execPath: "/usr/local/Cellar/gcc/9.2.0/bin/g++-9"
+    gccDebug: true
+    gccLintOnTheFly: true
+  "linter-gcc2":
+    execPath: "g++-9"
+    gccDebug: true
+    gccDefaultCFlags: "-c -Wall -fsyntax-only"
+    gccDefaultCppFlags: "-c -Wall -std=c++14 -fsyntax-only"
+    gccLintOnTheFly: true
+  "linter-joker": {}
+  "linter-ui-default":
+    alwaysTakeMinimumSpace: true
+    hidePanelWhenEmpty: false
+    panelHeight: 277
+    useBusySignal: false
+  "lisp-paredit":
+    enabled: false
+    strict: false
+  "markdown-preview-plus":
+    mathConfig:
+      enableLatexRenderingByDefault: true
+  "markdown-table-editor": {}
+  "markdown-writer": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  organized:
+    enableToolbarSupport: false
+  "pdf-view":
+    fitToWidthOnOpen: true
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#2f1323"
+        blue: "#497e8d"
+        cyan: "#a9aaac"
+        green: "#979475"
+        magenta: "#b16133"
+        red: "#dc0033"
+        white: "#a09d95"
+        yellow: "#f6b356"
+      zBright:
+        brightBlack: "#ffffff"
+        brightBlue: "#66c2a5"
+        brightCyan: "#3288bd"
+        brightGreen: "#4432bd"
+    core: {}
+    style:
+      animationSpeed: 3
+      fontFamily: "Roboto Mono Light for Powerline, Menlo"
+      fontSize: "13"
+    toggles:
+      showToolbar: false
+  "process-palette":
+    palettePanel: {}
+    shell: "/usr/local/bin/bash"
+  "project-manager":
+    alwaysOpenInSameWindow: true
+    environmentSpecificProjects: true
+    includeGitRepositories: true
+    savePathsRelativeToHome: true
+  "proto-repl":
+    autoPrettyPrint: true
+  script: {}
+  "seti-ui":
+    themeColor: "Red"
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "source.rst"
+      "text.restructuredtext"
+      "text.tex.latex"
+      "text.md"
+    ]
+  "split-diff":
+    ignoreWhitespace: true
+  "sync-settings":
+    extraFiles: [
+      "process-palette.json"
+    ]
+    gistId: "bf5f13ede1bd7ea4fe7a58ac3dc75cd6"
+    hiddenSettings:
+      _lastBackupTime: "2020-03-03T13:13:11Z"
+    personalAccessToken: "49829f2a15834fd8a7a28a15b18d6964c90aa9a8"
+  "tabs-to-spaces": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  typewriter:
+    showGutter: true
+  welcome:
+    showOnStartup: false
+  wraptor:
+    breakWords: false
+  "you-complete-me":
+    enabledFiletypes: [
+      "c"
+      "cpp"
+      "objc"
+      "objcpp"
+      "h"
+      "hpp"
+    ]
+    globalExtraConfig: "/users/allenwang/.ycmd/.ycm_extra_conf.py"
+    linterEnabled: false
+    pythonExecutable: "python3"
+    ycmdPath: "/users/allenwang/.ycmd"
+".clojure.source":
+  editor:
+    softWrap: true
+    tabLength: 2
+".cmake.cpp.source.template":
+  editor:
+    tabLength: 2
+".cpp.source":
+  editor:
+    tabLength: 2
+".doxyfile.source":
+  editor:
+    autoIndent: true
